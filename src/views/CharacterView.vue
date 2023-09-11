@@ -22,7 +22,6 @@
       .then(res => res.json())
       .then(data => {
         character.value = data;
-        console.log(character.value);
       })
       .catch(error => {
         console.error(error);
